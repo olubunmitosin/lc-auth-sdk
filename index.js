@@ -11,12 +11,12 @@ const LodgeCompliance = function(defaultOptions) {
         "local": "http://localhost:5000/guestregistration-4140a/us-central1/assets/css/lc.css",
         "staging": "https://staging-assets.lodgecompliance.com/css/lc.css",
         "production": "https://assets.lodgecompliance.com/css/lc.css"
-    }[env];
+    }[defaultOptions.env];
     // Build full path if env is local
-    if (env === "local") {
+    if (defaultOptions.env === "local") {
         defaultOptions.local = `${defaultOptions.local}:${defaultOptions.local_port}`
     }
-    this.domain = defaultOptions[env];
+    this.domain = defaultOptions[defaultOptions.env];
     this.container = document.createElement("div");
     this.frame =  document.createElement("iframe");
     util.loadStyle(style).then(() => {
