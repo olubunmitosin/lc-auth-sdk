@@ -1,10 +1,10 @@
 
 let defaultOptions = {
-    "env": "local",
-    "local": "http://localhost",
-    "staging": "https://staging-account.lodgecompliance.com",
-    "production": "https://account.lodgecompliance.com",
-    "local_port": "8080",
+    env: "local",
+    local: "http://localhost",
+    staging: "https://staging-account.lodgecompliance.com",
+    production: "https://account.lodgecompliance.com",
+    local_port: "8080",
 };
 const LodgeCompliance = function(defaultOptions) {
     const style = {
