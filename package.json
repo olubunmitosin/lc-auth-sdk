@@ -3,9 +3,17 @@
   "version": "1.0.0",
   "description": "An authentication sdk for Lodge Compliance",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olubunmitosin/lc-auth-sdk.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Victor Olubunmi",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {    
+    "url": "https://github.com/olubunmitosin/lc-auth-sdk/issues"  
+  },  
+  "homepage": "https://github.com/olubunmitosin/lc-auth-sdk#readme"
 }
