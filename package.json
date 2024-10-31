@@ -2,7 +2,7 @@
   "name": "lc-auth-sdk",
   "version": "1.0.0",
   "description": "An authentication sdk for Lodge Compliance",
-  "main": "index.js",
+  "main": "revised.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/olubunmitosin/lc-auth-sdk.git"
